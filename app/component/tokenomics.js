@@ -17,8 +17,8 @@ export default function Tokenomics() {
                   className=""
                   src={supply}
                   alt="hero"
-                  width={450}
-                  height={450}
+                  width={250}
+                  height={250}
                 />
               </div>
               <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
@@ -34,8 +34,8 @@ export default function Tokenomics() {
                   className=""
                   src={tax}
                   alt="hero"
-                  width={450}
-                  height={450}
+                  width={250}
+                  height={250}
                 />
               </div>
               <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">

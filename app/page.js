@@ -7,7 +7,7 @@ import Footer from "./component/footer";
 
 export default function Home() {
   return (
-    <div className="px-10 bg-gray-300">
+    <div className="px-12 bg-[#F4A259]">
       <Hero />
       <Tokenomics />
       <Buy />

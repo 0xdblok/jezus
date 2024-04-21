@@ -7,23 +7,16 @@ import nuu from "../asset/nuu.png";
 export default function Hero() {
   return (
     <div>
-      <div className="flex justify-center pt-10">
-        <Image src={jezus} alt="hero" width={450} height={450} />
-      </div>
-      <div className="flex">
+      <div className="md:flex md:justify-center ">
         <div>
           {" "}
-          <Image
-            className="md:w-[400px] md:h-[400px] w-[200px] h-[200px]"
-            src={logo}
-            alt="hero"
-            width={450}
-            height={450}
-          />
+          <Image className="" src={logo} alt="hero" width={450} height={450} />
         </div>
-        <div className="text-center pt-20 ">
-          <h1 className="">Hi I'm JEZUS CRIES</h1>
-          <p>PEOPLE TELL ME I LOOK LIKE . I TELL THEM I’M A PRAYER!</p>
+        <div className="text-center grid justify-center items-center pt-20 ">
+          <h1 className="">
+            Hi I'm JEZUS CRIES PEOPLE TELL ME I LOOK LIKE . I TELL THEM I’M A
+            PRAYER!
+          </h1>
         </div>
       </div>
       <div className="flex justify-center">
